@@ -1,9 +1,11 @@
-from flask import Flask, render_template
-app= Flask(__name__)
+from flask import Flask
 
-@app.route("/")
-def home():
-        return render_template("home.html")
+app = Flask(__name__)
 
-if __name__ == "_main_":
-    app.run (debug = True)
+@app.route ('/')
+def home(): 
+        return "Welcome, can you answer this?"
+
+if __name__ == '__main__':
+        app.run(debug=True)
+        
