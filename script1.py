@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home(): 
         return render_template('home.html')
 
-@app.rout ('winner/')
+@app.route ('/winner/')
 def winner():
         return render_template('winner.html')
 
