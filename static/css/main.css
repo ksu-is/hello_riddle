@@ -28,3 +28,16 @@ div.winner {
           border-radius: 6px;
 }
 
+/* formating header */
+header {
+    background-color: #DFB887;
+    height: 35px;
+    width: 100%;
+    opacity: .9;
+    margin-bottom: 10px;
+  }
+
+  header.logo {
+      margin: 10px;
+      color: #fff;
+  }
