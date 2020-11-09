@@ -2,8 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-    color: #474344;
-    background-color:#e5bd77;
+    color:#353233;
+    background-color:#ebcc98;
 }
 
 /*centering body*/
@@ -15,11 +15,11 @@ body {
 
 div.home {
     padding: 10px 0 30px 0;
-    background-color:#943d2c;
+    background-color:#b14334;
     -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
-    color: #474344;
+    color: #353233;
 }
 
 div.winner {
@@ -32,12 +32,12 @@ div.winner {
 
 /* formating header */
 header {
-    background-color: #cc7952;
+    background-color: #c58134c0;
     height: 35px;
     width: 100%;
     opacity: .9;
     margin-bottom: 10px;
-    color: #474344;
+    color:#353233;
   }
 
   header.logo {
