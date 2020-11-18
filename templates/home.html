@@ -5,12 +5,13 @@
 {% block content %}
     <div class = "home">
 <h1>Welcome <3</h1>
-<p>Can you answer this?</p>
-<div class = "quiz">
 
+<p>Do you know what my first words were? {{guess}}</p>
+    <p><form action="{{ url_for('greet') }}" method='post'>
+        Please let me know: <input type='text' name='guess'><br>
+        <input type='submit' value='Submit'>
+        </form></p>
 
-
-    
 </div>
 </div>
 {% endblock %}
