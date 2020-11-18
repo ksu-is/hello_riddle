@@ -22,18 +22,18 @@
 =======
 #Road Map
     I. Create Design Layout
-        -create rough draft of HTML/CSS layout template
-        -Identify elements needed
+        -create rough draft of HTML/CSS layout template DONE
+        -Identify elements needed DONE
     II. Template
-        -Create HTML/CSS template
+        -Create HTML/CSS template DONE
     III. Pages
-        -Create both home page and winner page
-        -add flask in order to test working webpage     elements
+        -Create both home page and winner page 
+        -add flask in order to test working webpage     elements DONE
     IV. Design Game Elements
         -Finalize game elements
-        -create function for game
+        -create function for game DONE
     V. Test
-        -Test and Debug game 
+        -Test and Debug game  DONE
         -Implement any additions to game
         -Change any layout for functional purposes
     VI. Music
