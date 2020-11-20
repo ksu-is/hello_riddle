@@ -5,16 +5,16 @@ app = Flask(__name__)
 
 @app.route('/home', methods=['POST'])
 def index():
-    inputName = request.form['myName']
+    answer = request.form['guess']
 
-    guess = input("Enter You Best Guess: ")
+    
+    if "Hello World!" in answer or "Hello World"  in answer:
+        return render_template("index.html", guess = "correct")
 
-    if "Hello World!" or "Hello World"  in guess:
-       print ("Hello World! How Are You Today?")
-       print ("Click Here To Find Out :add link")
-
-    inputName = inputName.upper()+" hi!  Visiting from "
-    return render_template("index.html",myName=inputName)
+    else:
+        return render_template("index.html",guess="incorrect")
+    
+    
 
 @app.route('/')
 def home():
