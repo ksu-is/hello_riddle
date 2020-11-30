@@ -1,6 +1,8 @@
 from flask import Flask
 from flask import render_template
 from flask import request
+import webbrowser
+
 app = Flask(__name__)
 
 @app.route('/home', methods=['POST'])
@@ -9,10 +11,10 @@ def index():
 
     
     if "Hello World!" in answer or "Hello World"  in answer:
-        return render_template("index.html", guess = "correct")
+        return render_template("index.html", guess = "Hello World! How Are You Today? Follow This Link To Find Out: ")
 
     else:
-        return render_template("index.html",guess="incorrect")
+        return render_template("index.html",guess="That's Not Right...Better Luck Next Time...")
     
     
 
