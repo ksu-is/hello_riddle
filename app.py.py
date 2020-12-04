@@ -10,7 +10,8 @@ def index():
 
     
     if "Hello World!" in answer or "Hello World"  in answer:
-        return render_template("index.html", guess = "Hello World! How Are You Today? Follow This Link To Find Out: ")
+        return render_template("index.html", guess = "Hello World! How Are You Today? Follow This URL To Find Out: https://soundcloud.com/louie-zong/hello-world ")
+        
 
     else:
         return render_template("index.html",guess="That's Not Right...Better Luck Next Time...")
