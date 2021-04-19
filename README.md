@@ -13,6 +13,12 @@ Riddle Website by Vanessa Camilli for IS 3020 Final Project
 *The second page will read "Hello World" and play a song as a reward
 *If the answer is incorrect then the text area will be cleared for them to guess again
 
-!!!!!!!!!! main is where files are located !!!!!!!!!!!!
+!!!!!!!!!! file structure
+             static\css\main
+             templates\index.html + layout.html
+             app.py.py
+             models.py
+             README.md
+             roadmap.md
 
 #sources https://github.com/Bencomo/Riddle/commit/338c13a414f0ce9c038125c3e4a573511c2e8c7f
